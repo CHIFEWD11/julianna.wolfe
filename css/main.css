@@ -44,7 +44,7 @@ h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 64px;
+    font-size: 58px;
     margin: .5em 0;
     word-spacing: .2em;
     text-align: center;
@@ -263,8 +263,8 @@ border: none;
 .infofood2 {
   float: left;
   width: 50%;
-  margin: 25px 0;
-  padding: 24px 38px;
+  margin: 36px 0;
+  padding: 24px 10px;
   overflow:hidden;
   display:inline-block;
 }
@@ -314,7 +314,7 @@ element.style {
     width: 90%;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1008px) {
     header {
       padding: 20px;
     }
@@ -384,11 +384,11 @@ element.style {
   }
   .info {
     width: 100%;
-    margin: 25px 0;
-    padding: 24px 38px;
+    margin: 10px 0;
+    padding: 10px 38px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .button, .button:visited {
@@ -451,7 +451,7 @@ h1 {
 }
 
 .infofood {
-
+  margin:0px;
   width: 100%;
 
 }
@@ -459,6 +459,9 @@ h1 {
 .infofood2 {
   width: 100%;
   display: inline;
+  margin-left: 30px;
+  margin-top:0px;
+  padding-top: 0px;
 }
 
 
